@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+</head>
+
+<header class="header-color">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav navbar-alinear">
+            <li class="nav-item">
+              <a class="navbar-alinear" aria-current="page" href="../index.html"><i class="fas fa-home"></i> Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-alinear" aria-current="page" href ="./españa.html"><i class="fas fa-place-of-worship"></i> España</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-alinear" aria-current="page" href ="./italia.html"><i class="fas fa-pizza-slice"></i> Italia</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-alinear" aria-current="page" href ="./estadosunidos.html"><i class="fas fa-flag-usa"></i> Estados Unidos</a>
+            </li>
+            <li class="nav-item">
+              <a class="navbar-alinear" aria-current="page" href ="./contacto.html"><i class="fab fa-wpforms"></i> Contacto</a>                 
+            </li> 
+          </ul>      
+        </div>
+      </div>
+    </nav>
+      
+    <div class="container-logo">
+        <img src="../multimedia/logo-v2.JPG" alt="Copenhagen logo" class="logo">
+    </div>
+</header>
+
+<main>
+<body class="body_contacto">
+    <h1 class="header_contacto">Contacto</h1>
+    <hr>
+    <form action="Enviar.php" method="GET" class="formulario">
+      <fieldset>
+        <div class="row">
+          <div class="col">
+            <input type="text" required class="form-control" placeholder="Nombre" aria-label="Nombre">
+          </div>
+          <div class="col">
+            <input type="text" required class="form-control" placeholder="Apellido" aria-label="Apellido">
+          </div>
+        </div>
+              
+        <div class="mb-3 e-mail">
+          <label for="email" class="form-label"></label>
+          <input type="email" required class="form-control" id="email" placeholder="name@example.com">
+        </div>
+              
+        <div class="col">
+          <input type="text" required class="form-control" placeholder="DNI" aria-label="DNI">
+        </div>
+        <br>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+          <label class="form-check-label" for="flexRadioDefault1">Hombre</label>
+        </div>
+              
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+          <label class="form-check-label" for="flexRadioDefault2">Mujer</label>
+        </div>
+        <br>
+
+        <div class="col">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Argentina</option>
+            <option value="1">Chile</option>
+            <option value="2">Uruguay</option>
+            <option value="3">Colombia</option>
+            <option value="4">Perú</option>
+            <option value="5">Paraguay</option>
+          </select>
+        </div>
+        <br>
+
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">Soy mayor de 18 años</label>
+        </div>  
+        <br>
+
+        <div class="mb-3 reclamos">
+          <label for="exampleFormControlTextarea1" class="form-label">Reclamos/Sugerencias</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
+        </div>
+      </fieldset>
+
+      <div class="container-terminos">
+        <h2>Términos y condiciones</h2>
+        <h3>Términos y condiciones</h3>
+        <h4>Términos y condiciones</h4>
+        <h5>Términos y condiciones</h5>
+        <h6>Términos y condiciones</h6>
+      </div>
+      
+      <div class="seccion-lorem">
+        Lorem ipsum dolor sit amet.
+        <div>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, nisi.
+          <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit excepturi tempora repellat totam iure ratione.
+            <div>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis, reiciendis est? Eligendi illum id nemo, nam fugit dolorem magnam illo quidem, officiis temporibus suscipit debitis vitae exercitationem. Nemo, quo perspiciatis!</div>
+          </div>
+        </div>
+      </div>
+      
+
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault">Acepto términos y condiciones</label>
+    </div>
+    <br>
+      
+      <button type="button submit" class="btn btn-success btn-sm espaciado_botones">Enviar</button>
+      <button type="button reset" class="btn btn-secondary btn-sm espaciado_botones">Cancelar</button>
+    </form>
+   
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>   
+</body>
+</main>
+
+<footer class="footer-container">
+    <ul class="ul_footer">
+        <a href="" class= "a_footer"><li><i class="fas fa-envelope"></i> E-mail</li></a>
+        <a href="" class= "a_footer"><li><i class="fab fa-facebook-f"></i> Facebook</li></a>
+        <a href="" class= "a_footer"><li><i class="fab fa-instagram"></i> Instagram</li></a>
+        <a href="" class= "a_footer"><li><i class="fab fa-twitter"></i> Twitter</li></a>
+        <a href="" class= "a_footer"><li><i class="fab fa-tiktok"></i> Tik Tok</li></a>
+    </ul>
+</footer>
+</html>

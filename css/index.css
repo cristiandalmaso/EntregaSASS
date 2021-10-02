@@ -1,0 +1,218 @@
+*{
+    font-family: 'Montserrat',sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header-color{
+    background-color: #e42121;
+    padding-top: 0.5rem;
+    margin: 0.1rem;
+}
+
+.navbar-alinear{
+    justify-content: space-between;
+    width: 100%;
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    align-items: center;
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover{
+    color:#c7ced1;
+    transform: scale(1.5,1.5);
+}
+
+.container-logo{
+    display: flex;
+    width: 100%;
+    background-color: white;
+}
+
+.logo{
+    width: 20rem;
+    margin:auto;
+}
+
+.img_main{
+    display: block;
+    width: 50rem;
+    margin: auto;
+}
+
+h1{
+    background-color: #ffffff;
+    color: #e42121;
+    font-family: 'Montserrat',sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    font-style: oblique;
+}
+
+.h2-subtitulo{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.h3-v2{
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 300;
+}
+
+main{
+    background-color: #e8e8e8;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.container-promociones{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    grid-template-rows: 30% 40% 30%;
+    justify-items: center;
+    border: 0.05rem solid black;
+    border-radius: 1rem;
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 1rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 0rem;
+}
+
+.container-promociones h4{
+    grid-column-start: 1;
+    grid-column-end: span 6;
+    text-align: center;
+    font-size: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 0.5rem;
+}
+
+.promo-tarjeta{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.tarjeta{
+    width: 100%;
+    height: 100%;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.promo-texto{
+    font-size: 0.7rem;
+    font-weight: 600;
+}
+
+.reserva{
+    font-size: 1rem;
+    text-align: center;
+    background-color: #c7ced1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding: 0.5rem;
+}
+
+.container-reserva{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0rem;
+}
+
+.index_pais{
+    margin-left: 0.5rem;
+    background-color: #e8e8e8;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 0.9rem;
+    width: 100%;
+    height: 100%;
+}
+
+.index_ciudad{
+    margin-left: 1rem;
+    margin-right: 1rem;
+    background-color: #e8e8e8;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 0.9rem;
+}
+
+.index_fecha{
+    margin-left: 1.5rem;
+    background-color: #e8e8e8;
+    font-family: 'Montserrat',sans-serif;
+    font-size: 0.9rem;
+    width: 100%;
+    height: 100%;
+    padding-left: 1rem;
+}
+
+.acepta_cancela{
+    font-size: 1rem;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.table_index{
+    font-size: 1rem;
+    text-align: center;
+}
+
+.linea_selec{
+    background-color: #e42121;
+    color: whitesmoke;
+    font-weight: bold;
+}
+.tabla{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.footer-container{
+    background-color: #709995;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    color: whitesmoke;
+    font-size: 0.9rem;
+    display: flex;  
+}
+
+.ul_footer{
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem;
+    height: 3rem;
+    margin-bottom: 0rem;
+}
+
+.a_footer{
+    color: whitesmoke;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    text-decoration: none;
+}
